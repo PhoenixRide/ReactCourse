@@ -1,0 +1,79 @@
+html
+
+<!-- Latest compiled and minified CSS -->
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+
+
+  <h1>Prestamos.com</h1>
+       <nav class="navbar navbar-default"> inicio calculo prestamo</nav>
+       <nav class="navbar navbar-dark bg-dark">
+  algo
+</nav>
+        <h2>inicio calculo prestamos</h2>
+
+        <h2> cálculo de prestamos </h2>
+        <h3> cálculo de prestamos - para el cálculo de prestamos, esta calculadora le permite calcular la cuota mensual a pagar en su prestamo, así como el total de intereses</h3>
+       
+
+
+
+
+js.
+
+//var resultado=(importe)*((interest/100)/12) / (1-Math.pow((1+(interest/100)/12),(-t)));
+
+// resultado=Math.round(resultado*100) /100;
+
+
+css
+
+h1 { 
+color:blue !important;
+text-decoration : none;
+font-family: "helvetica";
+ }
+
+ h2 {
+color: blue;
+background-color: blue;
+ }
+
+html, body, #root {
+  font-family: Akkurat Std, -apple-system, 
+BlinkMacSystemFont, Segoe UI, Roboto,
+  Oxygen, Ubuntu, Cantarell,
+ Helvetica Neue, sans-serif;
+  -webkit-font-smoothing: antialiased;
+ 
+ -moz-osx-font-smoothing: grayscale;
+  background: whitesmoke;
+ 
+display: flex;
+  padding: 0;
+  margin: 0;
+
+width: 100%;
+  font-size: 1rem;
+  min-height: 100%;
+  line-height: 2rem;
+
+  letter-spacing: 0;
+}
+
+Entregar un sitio web que visualmente sea similar a la captura.
+La misma web debe tener también una visualización que se
+adapte a dispositivos móbiles.
+Las provincias deben cargarse a través de AJAX.
+Recomendamos el siguiente link para utilizar como API
+https://raw.githubusercontent.com/dariosus/jsonProvincias/-
+master/provincias.json
+Al clickear en CALCULAR debe calcularse el total a devolver del
+préstamo en función del monto ingresado y el porcentaje de
+interés.
+A su vez debe mostrase el monto a pagar mensualmente.
+El botón de BORRAR debe reiniciar el formulario y sus valores
+finales.

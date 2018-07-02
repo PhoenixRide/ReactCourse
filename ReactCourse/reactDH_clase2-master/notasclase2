@@ -1,0 +1,31 @@
+webpack desp minifica. buscar minificar
+
+
+$
+donde dice app-react ( renglon 2) ahi tiene que ser el nombre de la aplicacion
+
+es importante instalarlo global con el flag -g
+
+ver react en produccion
+
+
+cada vez que necesitamos una nueva dependencia hacer nmp instal haciendo --save $npm instal( nombredependencia) --save
+(para que no modifique el packge)
+
+filmina ese class appp extends componene.....donde dice app puede ser cualqueir cosa. buttom, divi(?) supongo
+
+
+repasar .createelement. igual ale dijo que no lo vamos a usar. presicamente en la filmina muestra que usando createelement hace que el codigo sea gigante. react nos hace mas comodo la manera de escribir
+
+el metodo render es del componente de react
+
+todos los componentes empiezan con mayuscula
+
+''rapear'' (?)
+
+diferencia entre map y foreach
+
+atributo key entre  llaves cuando trabajo con arrays para que no salte error ( igual a mi no me saltó error)
+el key no se imprime en el html. lo usa react para comapra el dom con el virtual dom
+
+cuando me meto en la consola cuando trabajo con react me sale este carte ''Download the React DevTools for a better development experience: https://fb.me/react-devtools'' javi recomendó bajar eso. sirve un monton.. entrar a netflix, airbnb y ver lo complejo de esas paginas

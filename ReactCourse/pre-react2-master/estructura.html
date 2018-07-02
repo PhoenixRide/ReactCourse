@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="css/estilos.css"> 
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<title>Estructura</title>
+</head>
+<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12" style="background: linear-gradient(to bottom,  gray, white); height: 80px; width: auto;">
+					<h1 class="prestamos">PRESTAMOS.COM </h1>
+
+
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-8" style="margin-top: 35px;">
+				<nav class="navbar navbar-expand-lg navbar-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+    
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">INICIO <span class="sr-only">(current)</span></a>
+      </li>
+       <li class="nav-item active">
+        <a class="nav-link" href="#">CALCULO DE PRESTAMOS <span class="sr-only">(current)</span></a>
+      </li>
+      
+      
+      
+    </ul>
+   
+  </div>
+</nav>
+			</div>
+			</div> 
+
+			<div class="row">
+				<div class="col-lg-9" style="margin-top:20px;">
+						
+					<h2 id="subtitulo"> Cálculo de préstamos</h2><br/>
+					<p> Cálculo de Préstamos - para el cálculo de prestamos, esta calculadora le permite
+cálcular la cuota mensual a pagar en su préstamo, así como el total de intereses. </p> <br>
+
+				<form>  <div class="contenedor-border"> <h4 id="titulo"> Cálculo de préstamos </h4>
+					<br>
+  <div class="form-group row">
+   <label for="inputPassword" class="col-sm-2 col-form-label">Importe</label>
+    <div class="col-sm-7 offset-1">
+      <input type="importe" class="form-control" id="inputPassword" placeholder="Importe">
+    </div>
+  </div>
+
+  <div class="form-group row">
+  	 <label for="inputPassword" class="col-sm-2 col-form-label">Provincia</label>
+  	<div class="col-sm-7 offset-1">
+
+   
+     <select class="custom-select custom-select-sm-6"> 
+  <option selected>Capital Federal</option>
+  <option value="1">Almagro</option>
+  <option value="2">Villa Crespo</option>
+  <option value="3">Belgrano</option>
+</select>
+</div> </div>
+
+ <div class="form-group row"> 
+    <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg"> <p style="font-size: 17px; width: 200px;">Taza de Interés </p> <p style="margin-left: 650px; margin-top:-34px; position: static;"> % </p></label>  
+    <div class="col-sm-7 offset-1"> 
+      <input type="taza" class="form-control form-control-lg" id="colFormLabelLg" placeholder="20"> 
+    </div>
+  </div> 
+<br> 
+  <a class="btn btn-dark" href="#" role="button" style="background-color:#081b7c;">CALCULAR</a>
+<button class="btn btn-dark" type="submit" style="background-color:#081b7c;">BORRAR</button>
+<br> <br>
+ <div class="form-group row">
+    <label for="inputPassword" class="col-sm-2 col-form-label"><p style="font-size:17px; width: 200px;">Cuota Mensual </p></label>
+    <div class="col-sm-7 offset-1">
+      <input type="cuota" class="form-control" id="inputPassword" placeholder="10000">
+    </div>
+  </div>
+   <div class="form-group row">
+    <label for="inputPassword" class="col-sm-2 col-form-label">Total a Pagar</label>
+    <div class="col-sm-7 offset-1">
+      <input type="pagar" class="form-control" id="inputPassword" placeholder="120000">
+    </div>
+  </div>
+ </form>
+  
+
+</div>
+
+			</div>
+		</div>
+
+
+
+   <script src="js/jquery-3.2.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+     <script src="js/holder.min.js"></script>
+</body>
+</html>
